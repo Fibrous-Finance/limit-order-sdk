@@ -1,0 +1,17 @@
+{
+   "compilerOptions": {
+       "module": "CommonJS",
+       "declaration": true,
+       "removeComments": false,
+       "allowSyntheticDefaultImports": true,
+       "target": "ES2020",
+       "sourceMap": true,
+       "declarationMap": true,
+       "skipLibCheck": true,
+       "outDir": "./dist",
+       "baseUrl": "./",
+       "experimentalDecorators": true,
+   },
+   "include": ["src/**/*"],
+   "exclude": ["node_modules"]
+}

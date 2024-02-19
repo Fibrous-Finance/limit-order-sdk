@@ -1,0 +1,38 @@
+{
+   "name": "@fibrous/limit-order-sdk",
+   "version": "0.1.3",
+   "description": "A Typescript SDK for Fibrous Finance Limit Order",
+   "author": "kermo kermo@fibrous.finance",
+   "license": "MIT",
+   "main": "dist/index.js",
+   "module": "dist/index.m.js",
+   "types": "dist/index.d.ts",
+   "unpkg": "dist/index.umd.js",
+   "husky": {
+      "hooks": {
+         "pre-commit": "pretty-quick --staged"
+      }
+   },
+   "devDependencies": {
+      "husky": "^9.0.11",
+      "lint-staged": "^15.2.2",
+      "prettier": "3.2.5",
+      "pretty-quick": "^4.0.0",
+      "typescript": "^5.3.3"
+   },
+   "dependencies": {
+      "axios": "^1.6.7",
+      "dotenv": "^16.4.4",
+      "microbundle": "^0.15.1",
+      "np": "^9.2.0",
+      "starknet": "^5.24.3"
+   },
+   "scripts": {
+      "prepare": "husky",
+      "format": "npx prettier --write .",
+      "build": "rimraf dist && microbundle --tsconfig tsconfig.json"
+   },
+   "publishConfig": {
+      "access": "public"
+   }
+}
