@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Fibrous Finance Limit Order SDK (v0.1.0)
+# Fibrous Finance Limit Order SDK (v0.1.3)
 
 The Fibrous Finance Limit Order SDK is a JavaScript library that provides tools and functionalities for interacting with the Fibrous Finance Limit Order protocol. It allows developers to programmatically access and utilize various features of the protocol, such as retrieving orders, placing orders, canceling orders, and more.
 
