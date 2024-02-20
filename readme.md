@@ -34,7 +34,7 @@ pnpm add @fibrous/limit-order-sdk
 
 ## Documentation
 
-The complete documentation for the Fibrous Finance Limit Order SDK can be found [here](https://github.com/Fibrous-Finance/limit-order-sdk/blob/main/examples/src/fillOrder.ts).
+The complete documentation for the Fibrous Finance Limit Order SDK can be found [here](https://docs.fibrous.finance/fibrous-solutions/fibrous-limit-order).
 
 ## Contributing
 
