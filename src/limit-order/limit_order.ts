@@ -56,7 +56,7 @@ export class LimitOrder implements ILimitOrder {
       });
       const resp = await provider.callContract({
          contractAddress: this.DEFAULT_CONTRACT_ADDRESS,
-         entrypoint: 'remaingAmount', // TODO: remainingAmount
+         entrypoint: 'remainingAmount',
          calldata: [orderHash],
       });
       const remainingAmount = uint256.uint256ToBN({
